@@ -64,6 +64,12 @@
     const app = initializeApp(firebaseConfig);
   </script>
 
+  <style>
+    p {
+      text-align: justify;
+    }
+  </style>
+
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
@@ -91,7 +97,30 @@
 
         </div>
       </div>
+      <style>
+        #home {
+          color: white;
+          background: linear-gradient(90deg, #212431, #183e4f);
+          padding: 10px;
+          padding-top: 4px;
+          padding-bottom: 4px;
+          border-radius: 20px;
+          font-size: 16px;
+          opacity: .8;
+          transition: .4s;
+          width: auto;
+        }
 
+        #home:hover {
+          opacity: 1;
+        }
+      </style>
+      <div
+        style="display:flex;width:inherit;justify-content: center;align-items: center;margin-top:16px;margin-bottom: -10px;">
+        <a href="assets\Resume.pdf" download>
+          <div id="home"><i class="bi bi-cloud-arrow-down"></i> Resume</div>
+        </a>
+      </div>
       <nav id="navbar" class="nav-menu navbar">
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
@@ -123,8 +152,10 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>Creative & Innovative in terms of Designing and Developing Mobile & Web Apps. Proficient in designing
-            interfaces, writing & testing code and implementing new features based on user feedback.</p>
+          <p>Freelance developer with 4+ years of experience in web and mobile app development. Proven ability to design
+            and develop user-friendly and efficient software applications using HTML, CSS, JavaScript, ReactJS, Dart,
+            and Flutter and version controlling using Git. Seeking a challenging role in a fast-paced environment where
+            I can use my skills and experience to make a significant impact.</p>
         </div>
 
         <div class="row">
@@ -132,27 +163,28 @@
             <img src="assets/img/profile-img.jpg" style="border-radius: 10px;" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>UI/UX Designer &amp; Web Developer.</h3>
+            <h3>UI Designer &amp; Web Developer</h3>
             <p class="fst-italic">
 
             </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>3 Jan 2001</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 70230 50867</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>geekysharma31@gmail.com</span>
+                  </li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Pali (Rajasthan)</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Nationality:</strong> <span>Indian</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
+
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>3 Jan 2001</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span id="age"></span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor in Computer
                       Applications</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong>
-                    <span>geekysharma31@gmail.com</span>
-                  </li>
+
                   <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                 </ul>
               </div>
@@ -249,9 +281,9 @@
             </div>
 
             <div class="progress">
-              <span class="skill">figma <i class="val">100%</i></span>
+              <span class="skill">figma <i class="val">85%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div>
@@ -261,9 +293,9 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
             <div class="progress">
-              <span class="skill">JavaScript <i class="val">72%</i></span>
+              <span class="skill">JavaScript <i class="val">65%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div>
@@ -277,9 +309,9 @@
             </div>
 
             <div class="progress">
-              <span class="skill">flutter <i class="val">55%</i></span>
+              <span class="skill">flutter <i class="val">60%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div>
@@ -303,65 +335,72 @@
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>Bachelors of Computer Applications</h4>
-              <h5>2018-2021</h5>
-              <p><em>Jai Narain Vyas University, Jodhpur (Rajasthan)</em></p>
-              <p>Learnt about basics of computer programming & web designing. Developed many college projects
-                individually and with team too.</p>
-            </div>
-            <div class="resume-item">
               <h4>Masters of Computer Applications</h4>
               <h5>Pursuing</h5>
-              <p><em>Lovely Professional University, Paghwara (Punjab)</em></p>
+              <p><em>Lovely Professional University (Punjab)</em></p>
               <p>Mastering Web technologies, Programming skills, Understanding of Networking, Big Data and a lot.</p>
             </div>
+            <div class="resume-item">
+              <h4>Bachelors of Computer Applications</h4>
+              <h5>2018-2021</h5>
+              <p><em>Jai Narain Vyas University (Rajasthan)</em></p>
+              <p>Course work included Web technologies, Digital electronics, Database Management,
+                Networking and more. Developed many college projects
+                individually and with team too.</p>
+            </div>
+
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Experiences</h3>
-            <div class="resume-item pb-0">
-              <h4>Abhishek Sharma</h4>
-              <p><em>MIS Manager at Municipality Board Takhatgarh (Pali). Management of Portals and applying programming
-                  techniques to tackle everyday problems. I learnt reallife implementation of programmatic
-                  solutions.</em></p>
-              <ul>
-                <li>Municipality Office Takhatgarh, Pali (Rajasthan)</li>
-                <li>1 year experience</li>
-              </ul>
+            <div class="resume-item">
+              <h4>MIS Manager</h4>
+              <h5>Ongoing</h5>
+              <p>at Municipal Office Takhatgarh (Rajasthan). Acquired skills in managing portals and applying
+                programming techniques to solve everyday problems. Gained hands-on experience with programmatic
+                solutions and designed and developed tools and apps.</p>
             </div>
-
-            <div style="display: none;">
-              <h3 class="resume-title">Professional Experience</h3>
-              <div class="resume-item">
-                <h4>Senior graphic design specialist</h4>
-                <h5>2019 - Present</h5>
-                <p><em>Experion, New York, NY </em></p>
-                <ul>
-                  <li>Lead in the design, development, and implementation of the graphic, layout, and production
-                    communication materials</li>
-                  <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the
-                    project. </li>
-                  <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the
-                    design</li>
-                  <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>Graphic design specialist</h4>
-                <h5>2017 - 2018</h5>
-                <p><em>Stepping Stone Advertising, New York, NY</em></p>
-                <ul>
-                  <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
-                    advertisements).</li>
-                  <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                  <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                  <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-                </ul>
-              </div>
-              </p>
+            <div class="resume-item">
+              <h4>Computer Operator</h4>
+              <h5>2021-2022</h5>
+              <p>at Regional Transport Office Pali (Rajasthan). Managed company software to record fingerprint and
+                photographs. Built tools to automate manual processes.</p>
             </div>
           </div>
 
+
+          <div style="display: none;">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Senior graphic design specialist</h4>
+              <h5>2019 - Present</h5>
+              <p><em>Experion, New York, NY </em></p>
+              <ul>
+                <li>Lead in the design, development, and implementation of the graphic, layout, and production
+                  communication materials</li>
+                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the
+                  project. </li>
+                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the
+                  design</li>
+                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Graphic design specialist</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
+                  advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul>
+            </div>
+            </p>
+          </div>
         </div>
+
+      </div>
     </section><!-- End Resume Section -->
 
     <!-- ======= Services Section ======= -->
@@ -667,7 +706,7 @@
                 </div>
 
                 <div class="text-center"><button type="submit" id="send">Send Message</button></div>
-                
+
               </div>
 
             </form>
@@ -722,30 +761,34 @@
 
     document.getElementById('send').addEventListener('click', function (e) {
 
-      set(ref(db, 'contact/' + document.getElementById('name').value), {
-        name: document.getElementById('name').value,
-        email: document.getElementById('email').value,
-        subject: document.getElementById('subject').value,
-        message: document.getElementById('message').value
-      }).then(() => {
+      if (!(document.getElementById('name').value === '' && document.getElementById('email').value === '' && document.getElementById('subject').value === '' && document.getElementById('message').value === '')) {
+        set(ref(db, 'contact/' + document.getElementById('name').value), {
+          name: document.getElementById('name').value,
+          email: document.getElementById('email').value,
+          subject: document.getElementById('subject').value,
+          message: document.getElementById('message').value
+        }).then(() => {
 
-        document.getElementById('send').style.backgroundColor = 'green'
-        document.getElementById('send').innerText = "Message sent!"
+          document.getElementById('send').style.backgroundColor = 'green'
+          document.getElementById('send').innerText = "Message sent!"
 
 
-        document.getElementById('name').value = ""
-        document.getElementById('email').value = ""
-        document.getElementById('subject').value = ""
-        document.getElementById('message').value = ""
+          document.getElementById('name').value = ""
+          document.getElementById('email').value = ""
+          document.getElementById('subject').value = ""
+          document.getElementById('message').value = ""
 
-        setTimeout(() => {
-          document.getElementById('send').style.backgroundColor = '#149ddd'
-          document.getElementById('send').innerText = "Send Message"
+          setTimeout(() => {
+            document.getElementById('send').style.backgroundColor = '#149ddd'
+            document.getElementById('send').innerText = "Send Message"
 
-        }, 2000)
-      })
-        .catch((error) => {
-        });
+          }, 2000)
+        })
+          .catch((error) => {
+          });
+      }
+
+
 
     })
   </script>
