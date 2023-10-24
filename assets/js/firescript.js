@@ -21,6 +21,5 @@
   document.getElementById('submit').addEventListener('click',function(e) {
     set(ref(db,'contact/'+document.getElementById('name')),{
         name:document.getElementById('name').value
-
     })
   })
