@@ -14,6 +14,11 @@ body {
   color: #272829;
 }
 
+section {
+  scrollbar-width:none;
+  scrollbar-color: #fff transparent;
+}
+
 a {
   color: #047ab1;
   font-weight: bold;
@@ -83,8 +88,8 @@ h6 {
   background: #040b14;
   overflow-y: auto;
   max-height: 100vh;
-  scrollbar-width: thin;
-  scrollbar-color: #fff transparent;
+  scrollbar-width:thin;
+  scrollbar-color: #ffffff40 transparent;
 }
 ::-webkit-scrollbar {
   width: 0.1rem !important;
